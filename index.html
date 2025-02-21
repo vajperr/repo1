@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ók</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: black;
+        }
+        #fullScreenImage {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
 </head>
 <body>
-    <h1>ók</h1>
+    <!-- Replace 'your-image.png' with the path to your PNG file -->
+    <img id="fullScreenImage" src="https://stablediffusionweb.com/api/download?file=https%3A%2F%2Fimgcdn.stablediffusionweb.com%2F2024%2F10%2F10%2Fb98bc8e8-cde7-4fbb-8395-c2f3f6fcc03d.jpg" alt="Full Screen Image">
 </body>
 </html>
